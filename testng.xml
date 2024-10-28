@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/User/Intellij/VTiger_Application/src/test/java/VTiger_App_Products/Add_DeleteProduct_Test.java">
+        <classes>
+            <class name="VTiger_App_Products.Add_DeleteProduct_Test">
+                <methods>
+                    <include name="add_delete_Product"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/User/Intellij/VTiger_Application/src/test/java/VTiger_App_Products/Create_Products_Test.java">
+        <classes>
+            <class name="VTiger_App_Products.Create_Products_Test">
+                <methods>
+                    <include name="create_Product"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
