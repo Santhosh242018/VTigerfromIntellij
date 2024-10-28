@@ -27,6 +27,5 @@ public class Excel_Utility {
         String exceldata = format.formatCellValue(cell);
         file.close();
         return exceldata; 
-        // Return the excel data
-    }
+         }
 }
